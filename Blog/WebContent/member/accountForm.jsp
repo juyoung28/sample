@@ -21,7 +21,7 @@
 
 <body>
 	<!-- Nav Include -->
-	<jsp:include page="/include/navigation.jsp"/>
+	<jsp:include page="/include/header.jsp"/>
   <c:if test="${member!=null }">
 
   <!-- Page Content -->
@@ -76,7 +76,7 @@
      </div>
 
 	<!-- SideBar Include -->
-	<jsp:include page="/include/sidebar.jsp"/>
+	<jsp:include page="/include/aside.jsp"/>
 
    </div>
    <!-- /.row -->
